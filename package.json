@@ -2,7 +2,7 @@
 {
     "name": "fis-optimizer-php-compactor",
     "description": "A fis php compactor optimizer tool",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,7 @@
     },
   	"keywords": [
     	"fis",
+        "fis-plus",
     	"php",
     	"optimizer",
     	"compactor"
@@ -29,6 +30,6 @@
             "url": "https://github.com/crossyou/fis-optimizer-php-compactor/blob/master/LICENSE"
         }
     ],
-    "readme": "# fis-optimizer-php-compactor\r\na php compactor optimizer tool\r\n",
+    "readme": "# fis-optimizer-php-compactor\r\nfis-plus smarty plugin php compactor 工具\r\n\r\n## 如何使用？\r\n```bash\r\nnpm install -g fis-optimizer-php-compactor\r\n```\r\n\r\n配置 fis-conf.js\r\n\r\n```javascript\r\nfis.config.merge({\r\n    modules : {\r\n        optimizer : {\r\n            php : 'php-compactor'\r\n        }\r\n    }\r\n});\r\n```\r\n\r\n[fis]: https://github.com/fex-team/fis\r\n[fis-plus]: https://github.com/fex-team/fis-plus\r\n",
     "readmeFilename": "README.md"
 }
